@@ -1,0 +1,25 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  .user-info img {
+    margin-right: 5px; /* Adjust margin as needed */
+  }
+  

@@ -1,0 +1,52 @@
+/* ReactionTime.css */
+
+.screen {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(243, 238, 238, 0.5);
+    color: rgb(15, 15, 15);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    z-index: 1000;
+}
+
+.screen.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clickable-area {
+    cursor: pointer;
+    background: limegreen;
+    font-size: 32px;
+}
+
+.clickable-area.active {
+    background: #32cd32;
+}
+
+.result {
+    background: rgba(243, 238, 238, 0.5);
+    color: black;
+}
+
+
+
+.custom-btn {
+    background-color: #ffcc34;
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition effect */
+    box-shadow: 0px 1px 5px 0px rgb(0 0 0);
+    /* Hover effect */
+    &:hover {
+      color: black; /* Text color on hover */
+      background-color: white; /* Background color on hover */
+      transform: scale(1.04);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.897);
+      
+    }
+  }
